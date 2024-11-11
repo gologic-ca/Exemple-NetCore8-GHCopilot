@@ -1,7 +1,6 @@
-## Formation GoLogic Example de Projet
-# ![Formation GoLogic Example de Projet](Gologic_icone_100.png)
+# ![Formation GoLogic Example de Projet](Gologic.png)
 
-## Pré-requis
+## Pré-requis pour exemple de projet 
 
 Nous sommes excités d'explorer GitHub CoPilot avec vous dans le cadre d'exemples pratiques. Pour s'assurer le bon déroulement, assurez-vous de bien préparer votre poste de la manière suivante: 
 
@@ -14,13 +13,13 @@ Nous sommes excités d'explorer GitHub CoPilot avec vous dans le cadre d'exemple
 - (OPTIONEL) Installer Postman pour assiter à faire des requêtes au backend : [https://www.postman.com/downloads/](https://www.postman.com/downloads/)
 
 
-## Démarrer
+## Démarrer l'application
 
 - Ouvrir VSCode et ouvrir une nouvelle fenêtre (Ctrl+Shift+N)
 
 - Dans le Welcome, cliquer sur "Clone Git Repository...", entrer le URL de ce repo (soit: [https://github.com/gologic-ca/Exemple-NetCore8-GHCopilot.git](https://github.com/gologic-ca/Exemple-NetCore8-GHCopilot.git)) et confirmer "Clone from the URL". Cliquer "Open". 
 
-- Une fois le projet ouvert, ouvrir un nouveau terminal (Shift+Ctrl+`). Exécuter la commande: 
+- Une fois le projet ouvert, ouvrir un nouveau terminal (Shift+Ctrl+\`). Exécuter la commande: 
 `dotnet run -p src/Conduit/Conduit.csproj`
 
 Félicitations, le projet devrait maintenant être en train de rouler sur `http://localhost:5000/`
