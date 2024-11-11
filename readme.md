@@ -1,58 +1,44 @@
-# ![RealWorld Example App](logo.png)
+# ![Formation GoLogic Example de Projet](Gologic_icone.png)
 
-ASP.NET Core codebase containing real world examples (CRUD, auth, advanced patterns, etc) that adheres to the [RealWorld](https://github.com/gothinkster/realworld-example-apps) spec and API.
+## Pré-requis
 
-## [RealWorld](https://github.com/gothinkster/realworld)
+Nous sommes excités d'explorer GitHub CoPilot avec vous dans le cadre d'exemples pratiques. Pour s'assurer le bon déroulement, assurez-vous de bien préparer votre poste de la manière suivante: 
 
-This codebase was created to demonstrate a fully fledged fullstack application built with ASP.NET Core (with Feature orientation) including CRUD operations, authentication, routing, pagination, and more.
+- Installer Visual Studio Code [https://code.visualstudio.com/download](https://code.visualstudio.com/download)
 
-We've gone to great lengths to adhere to the ASP.NET Core community styleguides & best practices.
+- Une fois Visual Studio Code est sur votre système, installer le plugin SonarLint (Ouvrir VSCode, Ctrl+Shift+X, "SonarLint" dans la barre de recherche, cliquer "Install")
 
-For more information on how to this works with other frontends/backends, head over to the [RealWorld](https://github.com/gothinkster/realworld) repo.
+- Installer le .NET Core SDK (Version 8): [https://www.microsoft.com/net/download/core](https://www.microsoft.com/net/download/core)
 
-## How it works
+- (OPTIONEL) Installer Postman pour assiter à faire des requêtes au backend : [https://www.postman.com/downloads/](https://www.postman.com/downloads/)
 
-This is using ASP.NET Core with:
 
-- CQRS and [MediatR](https://github.com/jbogard/MediatR)
-  - [Simplifying Development and Separating Concerns with MediatR](https://blogs.msdn.microsoft.com/cdndevs/2016/01/26/simplifying-development-and-separating-concerns-with-mediatr/)
-  - [CQRS with MediatR and AutoMapper](https://lostechies.com/jimmybogard/2015/05/05/cqrs-with-mediatr-and-automapper/)
-  - [Thin Controllers with CQRS and MediatR](https://codeopinion.com/thin-controllers-cqrs-mediatr/)
-- [AutoMapper](http://automapper.org)
-- [Fluent Validation](https://github.com/JeremySkinner/FluentValidation)
-- Feature folders and vertical slices
-- [Entity Framework Core](https://docs.microsoft.com/en-us/ef/) on SQLite for demo purposes. Can easily be anything else EF Core supports. Open to porting to other ORMs/DBs.
-- Built-in Swagger via [Swashbuckle.AspNetCore](https://github.com/domaindrivendev/Swashbuckle.AspNetCore)
-- [Bullseye](https://github.com/adamralph/bullseye) for building!
-- JWT authentication using [ASP.NET Core JWT Bearer Authentication](https://github.com/aspnet/Security/tree/master/src/Microsoft.AspNetCore.Authentication.JwtBearer).
-- Use [dotnet-format](https://github.com/dotnet/format) for style checking
-- `.editorconfig` to enforce some usage patterns
+## Démarrer
 
-This basic architecture is based on this reference architecture: [https://github.com/jbogard/ContosoUniversityCore](https://github.com/jbogard/ContosoUniversityCore)
+- Ouvrir VSCode et ouvrir une nouvelle fenêtre (Ctrl+Shift+N)
 
-## Getting started
+- Dans le Welcome, cliquer sur "Clone Git Repository...", entrer le URL de ce repo (soit: [https://github.com/gologic-ca/Exemple-NetCore8-GHCopilot.git](https://github.com/gologic-ca/Exemple-NetCore8-GHCopilot.git)) et confirmer "Clone from the URL". Cliquer "Open". 
 
-Install the .NET Core SDK and lots of documentation: [https://www.microsoft.com/net/download/core](https://www.microsoft.com/net/download/core)
+- Une fois le projet ouvert, ouvrir un nouveau terminal (Shift+Ctrl+`). Exécuter la commande: 
+`dotnet run -p src/Conduit/Conduit.csproj`
 
-Documentation for ASP.NET Core: [https://docs.microsoft.com/en-us/aspnet/core/](https://docs.microsoft.com/en-us/aspnet/core/)
+Félicitations, le projet devrait maintenant être en train de rouler sur `http://localhost:5000/`
+Ajouter une requête à la fin de l'URL pour voireles résultats
 
-## Docker Build
-
-There is a 'Makefile' for OS X and Linux:
-
-- `make build` executes `docker-compose build`
-- `make run` executes `docker-compose up`
-
-The above might work for Docker on Windows
-
-## Local building
-
-- It's just another C# file!   `dotnet run -p build/build.csproj`
-
-## Swagger URL
+## URL Swagger
 
 - `http://localhost:5000/swagger`
 
 ## GitHub Actions build
 
 ![Build and Test](https://github.com/gothinkster/aspnetcore-realworld-example-app/workflows/Build%20and%20Test/badge.svg)
+
+## [Source et documentation](https://github.com/gothinkster/realworld)
+
+ASP.NET Core codebase containing real world examples (CRUD, auth, advanced patterns, etc) that adheres to the [RealWorld](https://github.com/gothinkster/realworld-example-apps) spec and API.
+
+This codebase was created to demonstrate a fully fledged fullstack application built with ASP.NET Core (with Feature orientation) including CRUD operations, authentication, routing, pagination, and more.
+
+We've gone to great lengths to adhere to the ASP.NET Core community styleguides & best practices.
+
+For more information on how to this works with other frontends/backends, head over to the [RealWorld](https://github.com/gothinkster/realworld) repo.
