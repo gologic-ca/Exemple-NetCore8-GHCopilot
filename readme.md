@@ -23,7 +23,7 @@ Nous sommes excités d'explorer GitHub CoPilot avec vous dans le cadre d'exemple
 `dotnet run -p src/Conduit/Conduit.csproj`
 
 Félicitations, le projet devrait maintenant être en train de rouler sur `http://localhost:5000/`
-Ajouter une requête à la fin de l'URL pour voireles résultats
+Ajouter une requête à la fin de l'URL pour voire les résultats
 
 ## URL Swagger
 
