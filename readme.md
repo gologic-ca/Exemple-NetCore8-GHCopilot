@@ -1,4 +1,4 @@
-# ![Formation GoLogic Example de Projet](gologic_icone_small.png)
+# !Formation GoLogic Example de Projet[Formation GoLogic Example de Projet](Gologic_icone_100.png)
 
 ## Pré-requis
 
