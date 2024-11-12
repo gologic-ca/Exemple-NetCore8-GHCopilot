@@ -35,7 +35,7 @@ Ajoutez une requête à la fin de l'URL pour voir les résultats.
 
 ## [Source et documentation](https://github.com/gothinkster/realworld)
 
-ALa base de code ASP.NET Core contient des exemples concrets (CRUD, authentification, modèles avancés, etc.) qui respectent la spécification et l'API [RealWorld](https://github.com/gothinkster/realworld-example-apps).
+La base de code ASP.NET Core contient des exemples concrets (CRUD, authentification, modèles avancés, etc.) qui respectent la spécification et l'API [RealWorld](https://github.com/gothinkster/realworld-example-apps).
 
 Cette base de code a été créée pour montrer une application full-stack complète construite avec ASP.NET Core (avec une orientation fonctionnalité) incluant des opérations CRUD, de l'authentification, du routage, de la pagination, et plus encore.
 
