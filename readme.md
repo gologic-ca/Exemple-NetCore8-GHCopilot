@@ -19,10 +19,10 @@ Nous sommes ravis d'explorer GitHub Copilot avec vous à travers des exemples pr
 
 - Dans l'accueil, cliquer sur "Clone Git Repository...", entrer l'URL de ce dépôt (à savoir : [https://github.com/gologic-ca/Exemple-NetCore8-GHCopilot.git](https://github.com/gologic-ca/Exemple-NetCore8-GHCopilot.git)) et confirmer en cliquant sur "Clone from the URL". Cliquer sur "Open".
 
-- Une fois le projet ouvert, ouvrir un nouveau terminal (Shift+Ctrl+`). Exécuter la commande :
+- Une fois le projet ouvert, ouvrir un nouveau terminal (Shift+Ctrl+\`). Exécuter la commande :
 `dotnet run -p src/Conduit/Conduit.csproj`
 
-Félicitations, le projet devrait maintenant être en cours d'exécution sur  `http://localhost:5000/`
+Félicitations, le projet devrait maintenant être en cours d'exécution sur  `http://localhost:5000/`.
 Ajoutez une requête à la fin de l'URL pour voir les résultats.
 
 ## URL Swagger
