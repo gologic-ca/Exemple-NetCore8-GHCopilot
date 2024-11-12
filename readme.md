@@ -2,28 +2,28 @@
 
 ## Pré-requis pour exemple de projet 
 
-Nous sommes excités d'explorer GitHub CoPilot avec vous dans le cadre d'exemples pratiques. Pour s'assurer le bon déroulement, assurez-vous de bien préparer votre poste de la manière suivante: 
+Nous sommes ravis d'explorer GitHub Copilot avec vous à travers des exemples pratiques. Pour assurer le bon déroulement, veuillez préparer votre poste de travail de la manière suivante :
 
-- Installer Visual Studio Code [https://code.visualstudio.com/download](https://code.visualstudio.com/download)
+- Installer Visual Studio Code : [https://code.visualstudio.com/download](https://code.visualstudio.com/download)
 
-- Une fois Visual Studio Code est sur votre système, installer le plugin SonarLint (Ouvrir VSCode, Ctrl+Shift+X, "SonarLint" dans la barre de recherche, cliquer "Install")
+- Une fois Visual Studio Code installé sur votre système, installez le plugin SonarLint (Ouvrir VSCode, Ctrl+Shift+X, saisir "SonarLint" dans la barre de recherche, cliquer sur "Install").
 
-- Installer le .NET Core SDK (Version 8): [https://www.microsoft.com/net/download/core](https://www.microsoft.com/net/download/core)
+- Installer le .NET Core SDK (Version 8) : [https://www.microsoft.com/net/download/core](https://www.microsoft.com/net/download/core)
 
-- (OPTIONEL) Installer Postman pour assiter à faire des requêtes au backend : [https://www.postman.com/downloads/](https://www.postman.com/downloads/)
+- (OPTIONNEL) Installer Postman pour faciliter les requêtes au backend : [https://www.postman.com/downloads/](https://www.postman.com/downloads/)
 
 
 ## Démarrer l'application
 
-- Ouvrir VSCode et ouvrir une nouvelle fenêtre (Ctrl+Shift+N)
+- Ouvrir VSCode et ouvrir une nouvelle fenêtre (Ctrl+Shift+N).
 
-- Dans le Welcome, cliquer sur "Clone Git Repository...", entrer le URL de ce repo (soit: [https://github.com/gologic-ca/Exemple-NetCore8-GHCopilot.git](https://github.com/gologic-ca/Exemple-NetCore8-GHCopilot.git)) et confirmer "Clone from the URL". Cliquer "Open". 
+- Dans l'accueil, cliquer sur "Clone Git Repository...", entrer l'URL de ce dépôt (à savoir : [https://github.com/gologic-ca/Exemple-NetCore8-GHCopilot.git](https://github.com/gologic-ca/Exemple-NetCore8-GHCopilot.git)) et confirmer en cliquant sur "Clone from the URL". Cliquer sur "Open".
 
-- Une fois le projet ouvert, ouvrir un nouveau terminal (Shift+Ctrl+\`). Exécuter la commande: 
+- Une fois le projet ouvert, ouvrir un nouveau terminal (Shift+Ctrl+`). Exécuter la commande :
 `dotnet run -p src/Conduit/Conduit.csproj`
 
-Félicitations, le projet devrait maintenant être en train de rouler sur `http://localhost:5000/`
-Ajouter une requête à la fin de l'URL pour voireles résultats
+Félicitations, le projet devrait maintenant être en cours d'exécution sur  `http://localhost:5000/`
+Ajoutez une requête à la fin de l'URL pour voir les résultats.
 
 ## URL Swagger
 
@@ -35,10 +35,10 @@ Ajouter une requête à la fin de l'URL pour voireles résultats
 
 ## [Source et documentation](https://github.com/gothinkster/realworld)
 
-ASP.NET Core codebase containing real world examples (CRUD, auth, advanced patterns, etc) that adheres to the [RealWorld](https://github.com/gothinkster/realworld-example-apps) spec and API.
+ALa base de code ASP.NET Core contient des exemples concrets (CRUD, authentification, modèles avancés, etc.) qui respectent la spécification et l'API [RealWorld](https://github.com/gothinkster/realworld-example-apps).
 
-This codebase was created to demonstrate a fully fledged fullstack application built with ASP.NET Core (with Feature orientation) including CRUD operations, authentication, routing, pagination, and more.
+Cette base de code a été créée pour montrer une application full-stack complète construite avec ASP.NET Core (avec une orientation fonctionnalité) incluant des opérations CRUD, de l'authentification, du routage, de la pagination, et plus encore.
 
-We've gone to great lengths to adhere to the ASP.NET Core community styleguides & best practices.
+Nous avons fait de notre mieux pour adhérer aux guides de style et aux meilleures pratiques de la communauté ASP.NET Core.
 
-For more information on how to this works with other frontends/backends, head over to the [RealWorld](https://github.com/gothinkster/realworld) repo.
+Pour plus d'informations sur le fonctionnement avec d'autres frontends/backends, rendez-vous sur le dépôt [RealWorld](https://github.com/gothinkster/realworld).
