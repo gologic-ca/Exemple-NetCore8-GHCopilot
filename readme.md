@@ -51,7 +51,6 @@ Pour plus d'informations sur le fonctionnement avec d'autres frontends/backends,
 
 ## Prerequisites 
 
-(Anglais à suivre)
 
 We couldn't be more excited to explore GitHub Copilot with you via practical examples. To ensure a smooth process, please prepare your workstation as follows:
 
