@@ -46,6 +46,9 @@ Nous avons fait de notre mieux pour adhérer aux guides de style et aux meilleur
 Pour plus d'informations sur le fonctionnement avec d'autres frontends/backends, rendez-vous sur le dépôt [RealWorld](https://github.com/gothinkster/realworld).
 
 
+# ![Formation GoLogic Example de Projet](Gologic.png)
+
+
 ## Prerequisites 
 
 (Anglais à suivre)
