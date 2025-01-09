@@ -8,7 +8,7 @@ Nous sommes ravis d'explorer GitHub Copilot avec vous à travers des exemples pr
 
 - Installer Visual Studio Code : [https://code.visualstudio.com/download](https://code.visualstudio.com/download)
 
-- Une fois Visual Studio Code installé sur votre système, installez le plugin SonarLint (Ouvrir VSCode, Ctrl+Shift+X, saisir "SonarLint" dans la barre de recherche, cliquer sur "Install").
+- Une fois Visual Studio Code installé sur votre système, installez le plugin SonarLint (Ouvrir VSCode, Ctrl+Shift+X, saisir "SonarQube for IDE" dans la barre de recherche, cliquer sur "Install").
 
 - Installer le .NET Core SDK (Version 8) : [https://www.microsoft.com/net/download/core](https://www.microsoft.com/net/download/core)
 
@@ -56,7 +56,7 @@ We couldn't be more excited to explore GitHub Copilot with you via practical exa
 
 - Install Visual Studio Code : [https://code.visualstudio.com/download](https://code.visualstudio.com/download)
 
-- Once Visual Studio Code is installed on your system, install the SonarLint plugin (Open VSCode, click Ctrl+Shift+X, insert "SonarLint" in the search bar and click on "Install").
+- Once Visual Studio Code is installed on your system, install the SonarLint plugin (Open VSCode, click Ctrl+Shift+X, insert "SonarQube for IDE" in the search bar and click on "Install").
 
 - Install the .NET Core SDK (Version 8) : [https://www.microsoft.com/net/download/core](https://www.microsoft.com/net/download/core)
 
