@@ -17,8 +17,20 @@ public class ConduitContext(DbContextOptions options) : DbContext(options)
     public DbSet<ArticleFavorite> ArticleFavorites { get; init; } = null!;
     public DbSet<FollowedPeople> FollowedPeople { get; init; } = null!;
 
+    // EF Core 9 : Activation des optimisations de performance
+    protected override void ConfigureConventions(ModelConfigurationBuilder configurationBuilder)
+    {
+        // Optimisation des requêtes pour les propriétés de type string
+        configurationBuilder.Properties<string>().HaveMaxLength(4000);
+        
+        base.ConfigureConventions(configurationBuilder);
+    }
+
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        // Configuration pour le suivi amélioré des entités en EF Core 9
+        modelBuilder.HasChangeTrackingStrategy(ChangeTrackingStrategy.Snapshot);
+
         modelBuilder.Entity<ArticleTag>(b =>
         {
             b.HasKey(t => new { t.ArticleId, t.TagId });

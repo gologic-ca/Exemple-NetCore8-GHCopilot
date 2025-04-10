@@ -17,13 +17,13 @@ public class Person
     public string? Image { get; set; }
 
     [JsonIgnore]
-    public List<ArticleFavorite> ArticleFavorites { get; init; } = new();
+    public List<ArticleFavorite> ArticleFavorites { get; init; } = [];
 
     [JsonIgnore]
-    public List<FollowedPeople> Following { get; init; } = new();
+    public List<FollowedPeople> Following { get; init; } = [];
 
     [JsonIgnore]
-    public List<FollowedPeople> Followers { get; init; } = new();
+    public List<FollowedPeople> Followers { get; init; } = [];
 
     [JsonIgnore]
     public byte[] Hash { get; set; } = [];

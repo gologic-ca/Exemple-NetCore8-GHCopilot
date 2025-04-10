@@ -21,7 +21,7 @@ public class Article
 
     public Person? Author { get; init; }
 
-    public List<Comment> Comments { get; init; } = new();
+    public List<Comment> Comments { get; init; } = [];
 
     [NotMapped]
     public bool Favorited => ArticleFavorites.Count != 0;
@@ -31,13 +31,13 @@ public class Article
 
     [NotMapped]
     public List<string> TagList =>
-        ArticleTags.Where(x => x.TagId is not null).Select(x => x.TagId!).ToList();
+        [.. ArticleTags.Where(x => x.TagId is not null).Select(x => x.TagId!)];
 
     [JsonIgnore]
-    public List<ArticleTag> ArticleTags { get; init; } = new();
+    public List<ArticleTag> ArticleTags { get; init; } = [];
 
     [JsonIgnore]
-    public List<ArticleFavorite> ArticleFavorites { get; init; } = new();
+    public List<ArticleFavorite> ArticleFavorites { get; init; } = [];
 
     public DateTime CreatedAt { get; init; }
 

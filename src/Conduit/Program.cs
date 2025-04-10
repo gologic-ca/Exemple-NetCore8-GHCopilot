@@ -91,7 +91,7 @@ builder
     .Services.AddMvc(opt =>
     {
         opt.Conventions.Add(new GroupByApiRootConvention());
-        opt.Filters.Add(typeof(ValidatorActionFilter));
+        opt.Filters.Add<ValidatorActionFilter>();
         opt.EnableEndpointRouting = false;
     })
     .AddJsonOptions(opt =>
@@ -122,9 +122,9 @@ app.UseMvc();
 app.UseSwagger(c => c.RouteTemplate = "swagger/{documentName}/swagger.json");
 
 // Enable middleware to serve swagger-ui assets(HTML, JS, CSS etc.)
-app.UseSwaggerUI(x => x.SwaggerEndpoint("/swagger/v1/swagger.json", "RealWorld API V1"));
+    app.UseSwaggerUI(x => x.SwaggerEndpoint("/swagger/v1/swagger.json", "RealWorld API V1"));
 
-using (var scope = app.Services.CreateScope())
+    using (var scope = app.Services.CreateScope())
 {
     var dbContext = scope
         .ServiceProvider.GetRequiredService<ConduitContext>()
