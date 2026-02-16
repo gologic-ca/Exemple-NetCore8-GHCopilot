@@ -17,5 +17,9 @@ public class HelloTests
         
         var value = result.Value;
         Assert.NotNull(value);
+        
+        // Verify the message property exists and has the correct value
+        var json = System.Text.Json.JsonSerializer.Serialize(value);
+        Assert.Contains("\"message\":\"Hello World\"", json);
     }
 }
